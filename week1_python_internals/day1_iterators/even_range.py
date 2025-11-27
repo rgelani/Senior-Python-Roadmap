@@ -16,8 +16,11 @@ class EvenRange:
         self.value += 2
         return current
                 
-          
-    
-evens = EvenRange(0, 10)  
-for num in evens:
-    print(num)
+evens = EvenRange(0, 10) 
+
+print(next(evens))
+print(next(evens))
+print(next(evens))
+print(next(evens))
+# for num in evens:
+#     print(num)
