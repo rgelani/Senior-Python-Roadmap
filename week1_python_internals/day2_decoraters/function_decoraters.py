@@ -1,5 +1,5 @@
 import time
-from functools import wrap
+from functools import wraps
 
 # A list to store the results for later analysis (like saving to a CSV)
 BENCHMARK_RESULTS = []
